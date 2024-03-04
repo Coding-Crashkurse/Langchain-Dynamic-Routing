@@ -34,16 +34,16 @@ cursor.execute(create_table_query)
 
 # List of products to insert
 products_to_insert = [
-    ('Pappardelle al Cinghiale', 19.50, 'Main Course'),
-    ('Risotto alla Fiorentina', 18.00, 'Main Course'),
-    ('Tiramisu della Nonna', 8.50, 'Dessert'),
-    ('Bruschetta', 5.00, 'Starter'),
-    ('Caprese Salad', 6.50, 'Starter'),
-    ('Gnocchi al Pesto', 16.50, 'Main Course'),
-    ('Lasagna', 17.00, 'Main Course'),
-    ('Panna Cotta', 7.50, 'Dessert'),
-    ('Cannoli', 6.00, 'Dessert'),
-    ('Minestrone Soup', 7.00, 'Starter')
+    ("Pappardelle al Cinghiale", 19.50, "Main Course"),
+    ("Risotto alla Fiorentina", 18.00, "Main Course"),
+    ("Tiramisu della Nonna", 8.50, "Dessert"),
+    ("Bruschetta", 5.00, "Starter"),
+    ("Caprese Salad", 6.50, "Starter"),
+    ("Gnocchi al Pesto", 16.50, "Main Course"),
+    ("Lasagna", 17.00, "Main Course"),
+    ("Panna Cotta", 7.50, "Dessert"),
+    ("Cannoli", 6.00, "Dessert"),
+    ("Minestrone Soup", 7.00, "Starter"),
 ]
 
 # Insert product data, checking if it already exists
